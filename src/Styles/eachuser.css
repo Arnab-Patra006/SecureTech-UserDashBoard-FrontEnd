@@ -1,0 +1,97 @@
+.eachuser-parent-div {
+  border: 2px solid #30425e;
+  border-radius: 1rem;
+  box-shadow: 4px 1px 8px #495b78;
+  padding: 8px;
+}
+
+.eachuser-img {
+  min-height: 200px;
+  max-height: 200px;
+  max-width: 180px;
+  padding: 5px;
+  display: block;
+  margin: auto;
+}
+
+.eachuser-id {
+  border: none;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 30px;
+  max-height: 30px;
+  min-width: 30px;
+  max-width: 30px;
+  color: antiquewhite;
+  background-color: royalblue;
+  font-size: large;
+  font-weight: bold;
+}
+
+.eachuser-btn {
+  border: none;
+  font-weight: bold;
+  background-color: #570a22;
+  color: bisque;
+  border-radius: 3px;
+  height: 40px;
+  width: auto;
+  display: block;
+  margin: auto;
+  box-shadow: 4px 3px 5px #d1c5d6;
+}
+
+.eachuser-name {
+  display: flex;
+  justify-content: center;
+  color: #090257;
+}
+
+.eachuser-age {
+  color: #30425e;
+  font-weight: bold;
+}
+
+.eachuser-gender {
+  color: #12a302;
+  font-weight: bold;
+}
+
+.eachuser-crypto {
+  color: #040161;
+  font-weight: bold;
+}
+
+.eachuser-thumb-img {
+  display: grid;
+  gap: 0 rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.eachuser-blood {
+  color: #cc0404;
+  font-weight: bold;
+}
+
+.eachuser-company {
+  color: #a62c00;
+  font-weight: bold;
+}
+
+.eachuser-dept{
+    color: #01566e;
+    font-weight: bold;
+}
+.eachuser-title{
+    color: #772e99;
+    font-weight: bold;
+}
+
+.eachuser-det{
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 3px 0px 10px #d1c5d6;
+    padding: 4px;
+}

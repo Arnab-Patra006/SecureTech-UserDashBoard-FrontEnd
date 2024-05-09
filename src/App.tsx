@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { QueryClient, QueryClientProvider } from "react-query";
+import { Route, Router, Routes } from "react-router";
+import Login from "./Components/Login";
+import Navbar from "./Components/Navbar";
+import Signup from "./Components/Signup";
+import About from "./Pages/About";
+import AdminDetailed from "./Pages/AdminDetailed";
+import Contact from "./Pages/Contact";
+import Detailed from "./Pages/Detailed";
+import Home from "./Pages/Home";
 
-function App() {
+const App = () => {
+  const queryClient = new QueryClient();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <QueryClientProvider client={queryClient}>
+        <div>
+          <Routes>
+            <Route path="/" element={<Signup />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/detailed/:userId" element={<Detailed />} />
+            <Route path="/admin_detailed" element={<AdminDetailed />} />
+          </Routes>
+        </div>
+      </QueryClientProvider>
+    </>
   );
-}
+};
 
 export default App;

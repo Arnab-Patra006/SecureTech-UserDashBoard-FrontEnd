@@ -1,0 +1,68 @@
+.detailed-parent-div{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px;
+}
+
+.personal-info{
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 12px rebeccapurple;
+    padding-left: 10px;
+}
+.location-info{
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 12px rebeccapurple;
+    padding: 10px;
+}
+
+.profession-info{
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 12px rebeccapurple;
+    padding-left: 10px;
+}
+
+.finance-info{
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 12px rebeccapurple;
+    padding-left: 10px;
+}
+
+.crypto-info{
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 12px rebeccapurple;
+    padding-left: 10px;
+}
+.personal-info-metadata{
+    color: #08470d;
+    font-weight: bold;
+}
+
+.location-info-metadata{
+    color:#321363;
+    font-weight: bold;
+}
+
+.professional-info-metadata{
+    color: #a30a1e;
+    font-weight: bold;
+}
+
+.crypto-info-metadata{
+    color: #9c6508;
+    font-weight: bold;
+}
+
+.finance-info-metadata{
+    color: #49156b;
+    font-weight: bold;
+}
+
+.intro-info-name{
+    color: #a30b1d;
+}

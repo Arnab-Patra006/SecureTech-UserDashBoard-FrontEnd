@@ -1,0 +1,89 @@
+.login-parent-div {
+  display: grid;
+  margin: auto;
+  margin-top: 80px;
+  border: none;
+  width: fit-content;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 10px #2e85ab;
+  padding: 60px;
+}
+
+.login-heading {
+  display: block;
+  margin: auto;
+  padding: 30px;
+  color: #502796;
+  text-shadow: 4px 4px 10px #2e85ab;
+}
+
+.login-parent {
+  display: block;
+  margin: auto;
+}
+
+.signup-parent-div {
+  display: grid;
+  margin: auto;
+  margin-top: 80px;
+  border: none;
+  width: fit-content;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 10px #2e85ab;
+  padding: 60px;
+}
+
+.signup-heading {
+  display: block;
+  margin: auto;
+  padding: 30px;
+  color: #502796;
+  text-shadow: 4px 4px 10px #2e85ab;
+}
+
+.login-label{
+  color: #502796;
+  font-weight: bold;
+}
+
+.login-inp{
+  border-radius: 5px;
+}
+
+.error-msg{
+  color: #e04368;
+}
+
+.login-btn
+{
+  color: white;
+  background-color: #502796;
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 60px;
+  box-shadow: 2px 2px 2px #2e85ab;
+  font-size: large;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.both-btn{
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-btn-S{
+  color: white;
+  background-color: #502796;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #2e85ab;
+  padding: 10px;
+  margin: 5px;
+  height: 40px;
+  width: 80px;
+  font-weight: bold;
+}

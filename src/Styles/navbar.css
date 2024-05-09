@@ -1,0 +1,23 @@
+.navbar-parent {
+  background-color: #303042;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 3px;
+}
+
+.nav-btn {
+  padding: 5px;
+  color: aliceblue;
+  background-color: #303042;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+
+.nav-head-img{
+  text-shadow: 2px 0px 20px white;
+}
